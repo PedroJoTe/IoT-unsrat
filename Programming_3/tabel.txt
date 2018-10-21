@@ -1,0 +1,9 @@
+create table ember(
+   id INT NOT NULL AUTO_INCREMENT,
+   waktu timestamp,
+   data1 VARCHAR(100) NOT NULL,
+   data2 VARCHAR(40) NOT NULL,
+   data3 VARCHAR(40) NOT NULL,
+   sensorid VARCHAR(40) NOT NULL,
+   PRIMARY KEY ( id )
+);
